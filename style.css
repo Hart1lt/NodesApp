@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f8;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    margin: 25px;
+    display: flex;
+}
+
+.create__btn {
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.note {
+    margin-bottom: 20px;
+    background-color: lightyellow;
+    padding: 10px;
+    height: 300px;
+    width: 240px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #cacaca;
+}
+
+.note__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.note__head button {
+    height: 25px;
+    width: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+#note__title__input {
+    font-size: 20px;
+    width: 70%;
+}
